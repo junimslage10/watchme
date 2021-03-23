@@ -11,15 +11,16 @@ nav.sidebar {
 
   background: var(--background2);
 
+  box-shadow: 0.01rem 0.01rem 0.5rem #010816;
   > span {
     margin-bottom: 4.5rem;
     font-size: 3rem;
     font-weight: 600;
-    color: var(--yellow);
+    color: var(--text-title1);
 
     p {
       display: inline;
-      color: var(--white);
+      color: var(--text-title2);
     }
   }
 

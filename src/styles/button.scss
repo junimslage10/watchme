@@ -16,6 +16,9 @@ button {
 
   &:hover {
     background: var(--background-button2);
+    cursor: pointer;
+    filter: brightness(0.7);
+    transform: translateY(-0.1rem);
   }
 
   transition: background 200ms;
